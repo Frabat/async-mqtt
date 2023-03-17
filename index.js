@@ -1,6 +1,6 @@
 'use strict'
 
-const mqtt = require('mqtt');
+const mqtt = require('mqtt/dist/mqtt');
 
 class AsyncClient {
   constructor (client) {
